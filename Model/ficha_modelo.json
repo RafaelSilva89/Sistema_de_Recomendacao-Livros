@@ -1,0 +1,49 @@
+{
+  "data_treino": "2026-10-25 13:27",
+  "modelo": "EASE (regressão item a item com L2), lambda = 200",
+  "sinal_treino": "todas",
+  "nota_gostou": 7,
+  "catalogo": {
+    "obras": 642,
+    "corte_min_notas": 50,
+    "obra": "título + autor normalizados"
+  },
+  "interacoes_treino": 150275,
+  "tamanho_lista": 10,
+  "separacao": "60/20/20 por usuário (livros com nota >= 7), usuários com >= 5 livros de que gostaram",
+  "metricas_teste": {
+    "acerto@10": 0.4072,
+    "precisão@10": 0.0547,
+    "recall@10": 0.2674,
+    "ndcg@10": 0.1961,
+    "cobertura": 0.8427,
+    "popularidade média": 0.0118
+  },
+  "metricas_teste_popularidade": {
+    "acerto@10": 0.1194,
+    "precisão@10": 0.014,
+    "recall@10": 0.0608,
+    "ndcg@10": 0.0358,
+    "cobertura": 0.081,
+    "popularidade média": 0.0252
+  },
+  "acerto_por_livros_informados": {
+    "1": 0.183,
+    "2": 0.232,
+    "3": 0.276,
+    "5": 0.308,
+    "10": 0.435
+  },
+  "filtro_qualidade": {
+    "nota_minima": 5,
+    "livros_bloqueados": [
+      "Wild Animus"
+    ]
+  },
+  "lista_sem_historico": "populares_bem_avaliados (nota média >= 7)",
+  "avisos": [
+    "Recomenda só livros do catálogo (obras com >= 50 notas); livros novos precisam de leitores para entrar.",
+    "A base é de 2004 e não tem datas: a separação é aleatória dentro de cada usuário, não no tempo.",
+    "Filtragem colaborativa: usa quem leu o quê, não o gênero ou o conteúdo dos livros."
+  ]
+}
