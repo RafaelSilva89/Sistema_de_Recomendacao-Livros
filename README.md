@@ -222,6 +222,8 @@ streamlit run app.py
 | Explicação | Nenhuma | "Porque você gostou de X" e acerto esperado por número de livros informados, no notebook e no app |
 | Produção | Nenhuma | Modelo salvo, ficha JSON, app Streamlit, testes e CI |
 
+- 🏆 **Veredito:** v2. O acerto@10 sobe de **3,5%** (o mesmo de um sorteio) para **40,7%** no teste, contra **11,9%** da lista dos mais populares.
+
 ## 12. 💡 Insights
 
 1. **Medir antes de afirmar:** o exemplo de Harry Potter da v1 parecia ótimo, mas na média o método acertava como um sorteio.
